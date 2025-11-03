@@ -1,5 +1,5 @@
 [package]
-name = "spl-stake-interface"
+name = "spl-stake-pool-interface"
 version = "1.0.0"
 edition = "2024"
 

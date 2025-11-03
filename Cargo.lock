@@ -7464,27 +7464,6 @@ dependencies = [
 ]
 
 [[package]]
-name = "spl-stake-interface"
-version = "1.0.0"
-dependencies = [
- "arrayref",
- "borsh 1.5.7",
- "bytemuck",
- "num-derive",
- "num-traits",
- "solana-account-info",
- "solana-borsh",
- "solana-msg",
- "solana-program-error",
- "solana-program-memory",
- "solana-program-pack",
- "solana-pubkey",
- "solana-stake-interface",
- "spl-token-2022-interface",
- "thiserror 2.0.12",
-]
-
-[[package]]
 name = "spl-stake-pool"
 version = "2.0.3"
 dependencies = [
@@ -7536,6 +7515,27 @@ dependencies = [
  "spl-stake-pool",
  "spl-token",
  "spl-token-2022 8.0.1",
+]
+
+[[package]]
+name = "spl-stake-pool-interface"
+version = "1.0.0"
+dependencies = [
+ "arrayref",
+ "borsh 1.5.7",
+ "bytemuck",
+ "num-derive",
+ "num-traits",
+ "solana-account-info",
+ "solana-borsh",
+ "solana-msg",
+ "solana-program-error",
+ "solana-program-memory",
+ "solana-program-pack",
+ "solana-pubkey",
+ "solana-stake-interface",
+ "spl-token-2022-interface",
+ "thiserror 2.0.12",
 ]
 
 [[package]]
